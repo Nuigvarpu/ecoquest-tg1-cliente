@@ -1,0 +1,23 @@
+{
+  "name": "ecoquest-tg1-cliente",
+  "version": "0.1.0",
+  "private": true,
+  "description": "EcoQuest P2P · Trabajo de grado 1: cliente de juego (motor 2D en HTML5 Canvas con capa de presentación intercambiable)",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host",
+    "test": "vitest run",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.0",
+    "eslint": "^10.15.0",
+    "typescript": "~6.0.3",
+    "typescript-eslint": "^8.74.0",
+    "vite": "^8.3.8",
+    "vitest": "^5.1.1"
+  }
+}
